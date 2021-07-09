@@ -1,4 +1,4 @@
-{{ fullname | escape | underline}}
+{{ name | escape | underline}}
 
 .. automodule:: {{ fullname }}
 
@@ -49,19 +49,19 @@
    {% endif %}
    {% endblock %}
 
-{% block modules %}
-{% if modules %}
-.. rubric:: Modules
+   {% block modules %}
+   {% if modules %}
+   .. rubric:: {{ _('Modules') }}
 
-.. autosummary::
-   :recursive:
-   :toctree: modules/
-   :template: module.rst
-{% for item in modules %}
-   {{ item }}
-{%- endfor %}
-{% endif %}
-{% endblock %}
+   .. autosummary::
+      :recursive:
+      :toctree: modules/
+      :template: module.rst
+   {% for item in modules %}
+      {{ item }}
+   {%- endfor %}
+   {% endif %}
+   {% endblock %}
 
 
 {% block functionsdef %}
