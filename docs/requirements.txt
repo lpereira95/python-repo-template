@@ -3,3 +3,4 @@ nbsphinx
 pydata-sphinx-theme
 sphinx-panels
 sphinx-copybutton
+sphinx-autodoc-typehints
