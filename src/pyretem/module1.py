@@ -6,11 +6,12 @@ def compute_something(a: float, b: int) -> float:
     """Sums `a` and `b`.
 
     Args:
-        a (float): A brief explanation of `a`.
-        b (int): A brief explanation of `b`.
+        a: A brief explanation of `a`.
+        b: A brief explanation of `b`.
 
     Returns:
         float: The sum of `a` and `b`.
+
 
     Notes:
         The addition of an `int` and a `float` returns a `float`.
@@ -25,6 +26,16 @@ def compute_something(a: float, b: int) -> float:
         The code will not break if you pass two str.
     """
     return a + b
+
+
+def add(a, b):
+    """Adds two elements.
+
+    Args:
+        a (int or float or str): First element.
+        b (int or float or str): Second element.
+    """
+    pass
 
 
 def merge_arrays(a, b):

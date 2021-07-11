@@ -1,6 +1,6 @@
 
-pyrem documentation
-===================
+pyretem documentation
+=====================
 
 
 **Date**: |today| **Version**: |release|

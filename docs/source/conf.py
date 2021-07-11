@@ -56,6 +56,7 @@ add_module_names = False
 
 # intersphinx options
 intersphinx_mapping = {
+    'python': ('https://docs.python.org/3', None),
     "numpy": ("https://numpy.org/doc/stable/", None),
 }
 
@@ -66,12 +67,6 @@ napoleon_preprocess_types = True
 napoleon_type_aliases = {
     "np.array": "numpy.ndarray"
 }
-
-
-# sphinx-panels shouldn't add bootstrap css since the pydata-sphinx-theme
-# already loads it
-panels_add_bootstrap_css = False
-
 
 # mathjax config within myst_parser
 suppress_warnings = ["myst.mathjax"]
@@ -85,7 +80,7 @@ suppress_warnings = ["myst.mathjax"]
 html_theme = "pydata_sphinx_theme"
 
 html_theme_options = {
-    "github_url": "https://github.com/lpereira95/pyretem",
+    "github_url": "https://github.com/lpereira95/python-repo-template",
 }
 
 

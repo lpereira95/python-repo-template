@@ -5,7 +5,7 @@ from collections.abc import Iterable
 
 
 def get_values(a):
-    """Gets first two values from an array.
+    """Gets first two values of an array.
 
     Args:
         a (array-like): An array where only the first two elements are relevant.
